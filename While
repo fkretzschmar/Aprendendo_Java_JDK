@@ -1,11 +1,11 @@
 public class TestaWhile {
 	public static void main(String[] args) {
 		int contador = 0;
+		System.out.println("Tabuada do 5:");
 		while (contador <= 10) {
-			System.out.println(contador);
+			System.out.println(contador + " x 5 = " + contador * 5);
 			contador++;
 //Ou contador += 1;
 		}
-		System.out.println(contador);
 	}
 }
